@@ -4,7 +4,6 @@ Companion App for the board game [Kemet: Blood and Sand](https://boardgamegeek.c
 
 # Made With
 - [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
 - [Prisma](https://prisma.io)
 - [Drizzle](https://orm.drizzle.team)
 - [Tailwind CSS](https://tailwindcss.com)
