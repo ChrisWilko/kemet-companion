@@ -8,6 +8,12 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
     tanstackRouter({ target: 'react', autoCodeSplitting: true }),
-    react(),
+    react({
+      babel: {
+        plugins: [
+          ['babel-plugin-react-compiler', { target: '19' }],
+        ],
+      },
+    }),
   ],
 })
