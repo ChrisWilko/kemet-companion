@@ -4,12 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4df3bd49-a4f5-46d1-9c7b-615ef2392286" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/eslint.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+    <list default="true" id="4df3bd49-a4f5-46d1-9c7b-615ef2392286" name="Changes" comment="setup react compiler and pin versions">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routeTree.gen.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/__root.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/about.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,32 +29,98 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="16" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ChrisWilko"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ChrisWilko&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ChrisWilko/kemet-companion.git",
-    "accountId": "119860f0-3175-4bf2-8e61-60ee0617a62c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ChrisWilko/kemet-companion.git&quot;,
+    &quot;accountId&quot;: &quot;119860f0-3175-4bf2-8e61-60ee0617a62c&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.4277066662920672" />
+      <entry key="MS500" value="3.7689215524875386" />
+      <entry key="S2" value="9.198004974691191" />
+      <entry key="S5" value="18.00729458066158" />
+      <entry key="S10" value="24.824623856835156" />
+      <entry key="S30" value="31.63219862116381" />
+      <entry key="S60" value="33.72310611520143" />
+      <entry key="M2" value="34.86372211316357" />
+      <entry key="M5" value="39.49550479378111" />
+      <entry key="M10" value="58.34355607229702" />
+      <entry key="M15" value="76.34488708602773" />
+      <entry key="M30" value="108.70474710233677" />
+      <entry key="H1" value="133.58817645758623" />
+      <entry key="H2" value="149.0646951031708" />
+      <entry key="H4" value="157.7018331957716" />
+      <entry key="D1" value="165.40229137834265" />
+      <entry key="W1" value="166.77055152792494" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.3693322251280302" />
+      <entry key="MS500" value="3.736038142325526" />
+      <entry key="S2" value="9.177401748377779" />
+      <entry key="S5" value="17.990908652111735" />
+      <entry key="S10" value="24.813227163935224" />
+      <entry key="S30" value="31.62732409746947" />
+      <entry key="S60" value="33.72050295472482" />
+      <entry key="M2" value="34.86237491702779" />
+      <entry key="M5" value="39.49486440136235" />
+      <entry key="M10" value="58.34301439520203" />
+      <entry key="M15" value="76.3443832352568" />
+      <entry key="M30" value="108.70436614565402" />
+      <entry key="H1" value="133.587936184975" />
+      <entry key="H2" value="149.06455945411147" />
+      <entry key="H4" value="157.70176103875338" />
+      <entry key="D1" value="165.40227870805538" />
+      <entry key="W1" value="166.77054970152923" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="37QSP7rEMjrgpULLwzu0TgXomQs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -58,6 +136,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "disable.download.node.interpreter.editor.notification": "true",
     "git-widget-placeholder": "main",
@@ -67,16 +146,26 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "pnpm",
+    "nodejs_interpreter_path": "C:/Users/Chris/AppData/Roaming/JetBrains/IntelliJIdea2026.1/node/versions/24.12.0/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.javascript.runtime",
     "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\Chris\\AppData\\Local\\Programs\\IntelliJ IDEA Ultimate\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecapSpentCounter">
+    <option name="endsOfQuotaMs" value="1769356807614" />
+    <option name="spentUsd" value="0.0693743" />
+  </component>
+  <component name="RecapUselessUpdatesCounter">
+    <option name="suspendCountdown" value="0" />
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
       </set>
     </attachedChunks>
   </component>
@@ -87,11 +176,39 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1766833777777</updated>
-      <workItem from="1766833779764" duration="320000" />
+      <workItem from="1766833779764" duration="1319000" />
+      <workItem from="1766919206886" duration="310000" />
+      <workItem from="1767066371565" duration="3710000" />
+      <workItem from="1767177105424" duration="2143000" />
+      <workItem from="1767257930232" duration="1153000" />
+      <workItem from="1767549590025" duration="1740000" />
+      <workItem from="1768917756644" duration="751000" />
+      <workItem from="1769103365420" duration="23000" />
+      <workItem from="1770905715210" duration="688000" />
+      <workItem from="1779528733711" duration="18000" />
+      <workItem from="1779629963574" duration="897000" />
+      <workItem from="1779698058239" duration="2922000" />
     </task>
+    <task id="LOCAL-00001" summary="setup react compiler and pin versions">
+      <option name="closed" value="true" />
+      <created>1766834177826</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1766834177826</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="setup react compiler and pin versions" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup react compiler and pin versions" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

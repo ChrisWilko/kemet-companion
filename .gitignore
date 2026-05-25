@@ -3,4 +3,11 @@ node_modules
 dist
 dist-ssr
 *.local
-/.idea/
+count.txt
+.env
+.nitro
+.tanstack
+.wrangler
+.output
+.vinxi
+todos.json
